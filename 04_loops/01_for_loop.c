@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void) {
+int main() {
     int i,n;
     printf("enter a number: ");
     scanf("%d",&n);

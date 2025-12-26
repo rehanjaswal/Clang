@@ -1,6 +1,6 @@
-#include<stdio.h>
-int main() {
-    while('a'<'b') {       // 97<98 (ascii values mate), always true --> infinite loop2
-        printf("malayalam is a palindrome\n");
-    }
+#include <stdio.h>
+int main(void) {
+    while('a'<'b') {   // ASCII a = 97, b = 98
+        printf("malayalam is a palindrome \n");
+    }    return 0;
 }
