@@ -1,14 +1,13 @@
 #include <stdio.h>
-void decreasing(int n) {
+void dec(int n) {
     if (n==0) return;
     printf("%d\n",n);
-    decreasing(n-1);
-    return;    
+    dec(n-1);
 }
 int main() {
     int n;
     printf("enter a number: ");
     scanf("%d",&n);
-    decreasing(n);
+    dec(n);
     return 0;
 }
